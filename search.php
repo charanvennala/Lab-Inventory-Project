@@ -9,7 +9,7 @@ if(isset($_POST['search'])) {
   if ($count == 0) {
     $output ='<h1 style="text-align:center" class="display-4">No results found in the Inventory!</h1>';
   }else{
-    $output = '
+    $output = '<div style="overflow-x:auto;">
     <table class="table table-hover table-light">
     <tr>
       <th>Equipment Code</th>  

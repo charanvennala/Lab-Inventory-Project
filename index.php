@@ -5,6 +5,9 @@
   <head>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8"/>
+      <!-- next 2 lines w3 fw -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <title>Inventory</title>
       <link rel="icon" href="logo-new-icon.png" type="image/gif" sizes="16x16">
@@ -171,7 +174,20 @@
       </footer>
     </div>
     <style>
-      table {
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+      /* table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
       }
@@ -180,7 +196,7 @@
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
-      }
+      } */
 
     </style>
 
